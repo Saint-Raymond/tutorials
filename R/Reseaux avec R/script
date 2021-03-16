@@ -113,6 +113,8 @@ plot(net,
 
 # Pour montrer des communautés (analyse structurale de réseau) 
 # on fait de "grosses patates" autour des noeuds : 
+clp <- cluster_label_prop(net)
+class(clp)
 plot(clp, net)
 
 # On peut également montrer des communautés en modifiant la couleur des noeuds selon un nombre fixe de classes : 
