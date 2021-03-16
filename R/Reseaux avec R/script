@@ -16,7 +16,7 @@ rm(list = ls())
 # On dit à R où sont les fichiers sur lesquels on va travailler :
 # il faut copier le chemin du dossier, avec édition => alt : "copier XX en tant que nom de chemin"
 
-setwd("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions") 
+setwd("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions") 
 
 # j'ouvre ma librairie pour les réseaux
 library("igraph")
@@ -160,11 +160,12 @@ install.packages('maps')
 install.packages('geosphere')
 library('maps') 
 library('geosphere')
+library("igraph")
 
 # Je dis quels sont les noeuds (ici, officiers : les points de la carte) et les liens (ici : ventes)
 # si read.csv2 ne fonctionne pas au moment de la cartographie, essayer read.csv
-officiers <- read.csv2("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions/auctionnodes.csv", header=TRUE)
-ventes <- read.csv2("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions/auctionlinks.csv", header=TRUE, as.is=TRUE)
+officiers <- read.csv2("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions/auctionnodes.csv", header=TRUE)
+ventes <- read.csv2("/Users/leasaint-raymond/Desktop/COURS/réseaux R/auctions/auctionlinks.csv", header=TRUE, as.is=TRUE)
 
 
 # Je construis le fond de carte
@@ -195,7 +196,8 @@ points(x=officiers$longitude, y=officiers$latitude, pch=19,
 #On peut modifier des couleurs ici : 
 col.1 <- adjustcolor("orange red", alpha=0.4)
 col.2 <- adjustcolor("orange", alpha=0.4)
-edge.pal <- colorRampPalette(c(col.1, col.2), alpha = TRUE) edge.col <- edge.pal(100)
+edge.pal <- colorRampPalette(c(col.1, col.2), alpha = TRUE) 
+edge.col <- edge.pal(100)
 
 # Pour calquer le réseau sur la carte, il faut tracer des arcs en disant quelle est le noeud-source et le noeud-destination.
   for(i in 1:nrow(ventes))  {
@@ -221,6 +223,6 @@ edge.pal <- colorRampPalette(c(col.1, col.2), alpha = TRUE) edge.col <- edge.pal
 # ==================================================================================
 # sources : 
 # https://rstudio-pubs-static.s3.amazonaws.com/337696_c6b008e0766e46bebf1401bea67f7b10.html 
-# Sébastien Plutniak. L’analyse de graphes avec R : un aperçu avec igraph. École thématique Analyse de réseaux et complexité, Sep 2018, Cargèse, France. hal-01885485
+# Sébastien Plutniak. L’analyse de graphes avec R : un aperçu avec igraph. École thématique Analyse de réseaux et complexité, Sep 2018, Cargèse, France. hal-01885485
 # www.kateto.net/sunbelt2019  (adapté au cas français)
 
