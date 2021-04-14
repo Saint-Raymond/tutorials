@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><gexf xmlns="http://www.gexf.net/1.1draft" version="1.1" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+<meta lastmodifieddate="2011-06-15"><creator>GraphMaker</creator><description>Jacomy Mathieu, Sciences Po Medialab and WebAtlas</description></meta>
+<graph defaultedgetype="undirected"  mode="static">
+<attributes class="node" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="global_occurrences" title="Occurrences Count" type="integer"></attribute>
+</attributes>
+<attributes class="edge" mode="static">
+<attribute id="attr_type" title="Type" type="string"></attribute>
+<attribute id="matchings_count" title="Matchings Count" type="integer"></attribute>
+</attributes>
+<nodes>
+<node id="acteur_b18a7a8d9974734b1f061b9a327a22bc" label="[cp rouen]">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_10ddd1ed5d827ba37109eb329c68bbab" label="alexandre stuer">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="5"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_babbac199bc66d295642c7bea764fea9" label="carton">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_4c9eb2a6d4d829d7d97cc6aece2797a7" label="chevallier">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_b8f5e0af9c1b6c05f4a19a6942ffc341" label="ciani">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_9255fbb6f2463cf474789b32fc9f64f7" label="comptoir géologique">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="2"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_1130791a3e3a296e3bc7b2b300eec8cc" label="de cagny">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="5"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_dd43e5da289e2240cc5689f92aad5329" label="delestre">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="3"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_6c8d82ec1df33dcc623f19405817684a" label="desvouges">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_f4c79e905dd39f8da45f93103767e821" label="florange">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_a84ee99ed75a8b79ab1c1e067ce48222" label="foye">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_c0c4ba05e8f556ae14c6b6b07233bd6b" label="gandouin, expert">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_932530adf5aee1674cc5a77f2f0dd85a" label="garnaud">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_efce190c44158daaa9f214577054465a" label="giard">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_54d6e7876e3872e98f305dccdc65675f" label="henri leman">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="2"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_d80aeff30ade1c33f2ccef337de21513" label="lair-dubreuil">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_77b5ece6ac7634f1dff77e91c9ed23fc" label="mannheim">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_6c90d27bf98fcdb5275cbd353e2594b6" label="pignatelli">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_f945de9422b9262b2b4507103de96c30" label="queille">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_e00ecac6b22efc85b36943ae94e73f99" label="rollin et feuardent">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_5f1005cad920456f9a64cc900e15ab69" label="serpette">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_128cc7a1d68dafcbe25ac0f459b4d29b" label="thouroude">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_69e13fc6cb55b65131576e185fdf45c2" label="vallet">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_c1509bae767800b71f22450b99260647" label="van peteghem">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_0ba387a1c5ef290d44ef1e6dcdb141fd" label="vannes">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+<node id="acteur_aeef7ff592cdb0a9b6d2f8ccd265fae3" label="veysseyre">
+<attvalues>
+<attvalue for="attr_type" value="acteur"></attvalue>
+<attvalue for="global_occurrences" value="1"></attvalue>
+</attvalues>
+</node>
+</nodes>
+<edges>
+<edge source="acteur_b18a7a8d9974734b1f061b9a327a22bc" target="acteur_0ba387a1c5ef290d44ef1e6dcdb141fd" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_10ddd1ed5d827ba37109eb329c68bbab" target="acteur_1130791a3e3a296e3bc7b2b300eec8cc" weight="4">
+<attvalues>
+<attvalue for="matchings_count" value="4"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_10ddd1ed5d827ba37109eb329c68bbab" target="acteur_932530adf5aee1674cc5a77f2f0dd85a" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_babbac199bc66d295642c7bea764fea9" target="acteur_69e13fc6cb55b65131576e185fdf45c2" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_babbac199bc66d295642c7bea764fea9" target="acteur_c1509bae767800b71f22450b99260647" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_4c9eb2a6d4d829d7d97cc6aece2797a7" target="acteur_77b5ece6ac7634f1dff77e91c9ed23fc" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_b8f5e0af9c1b6c05f4a19a6942ffc341" target="acteur_f4c79e905dd39f8da45f93103767e821" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_b8f5e0af9c1b6c05f4a19a6942ffc341" target="acteur_efce190c44158daaa9f214577054465a" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_b8f5e0af9c1b6c05f4a19a6942ffc341" target="acteur_d80aeff30ade1c33f2ccef337de21513" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_9255fbb6f2463cf474789b32fc9f64f7" target="acteur_dd43e5da289e2240cc5689f92aad5329" weight="2">
+<attvalues>
+<attvalue for="matchings_count" value="2"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_6c8d82ec1df33dcc623f19405817684a" target="acteur_54d6e7876e3872e98f305dccdc65675f" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_f4c79e905dd39f8da45f93103767e821" target="acteur_efce190c44158daaa9f214577054465a" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_f4c79e905dd39f8da45f93103767e821" target="acteur_d80aeff30ade1c33f2ccef337de21513" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_a84ee99ed75a8b79ab1c1e067ce48222" target="acteur_6c90d27bf98fcdb5275cbd353e2594b6" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_c0c4ba05e8f556ae14c6b6b07233bd6b" target="acteur_aeef7ff592cdb0a9b6d2f8ccd265fae3" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_efce190c44158daaa9f214577054465a" target="acteur_d80aeff30ade1c33f2ccef337de21513" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_54d6e7876e3872e98f305dccdc65675f" target="acteur_f945de9422b9262b2b4507103de96c30" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_e00ecac6b22efc85b36943ae94e73f99" target="acteur_128cc7a1d68dafcbe25ac0f459b4d29b" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+<edge source="acteur_69e13fc6cb55b65131576e185fdf45c2" target="acteur_c1509bae767800b71f22450b99260647" weight="1">
+<attvalues>
+<attvalue for="matchings_count" value="1"></attvalue>
+<attvalue for="attr_type" value="vente"></attvalue>
+</attvalues>
+</edge>
+</edges>
+</graph></gexf>
